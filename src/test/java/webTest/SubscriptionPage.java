@@ -39,7 +39,7 @@ public class SubscriptionPage {
 	    }
 
 	    @Test(dataProvider = "countries")
-	    public void validateSubscriptionPackages(String country, String currency) {
+	    public void validateSubscription(String country, String currency) {
 
 	        List<WebElement> packages = driver.findElements(By.cssSelector(".package-container"));
 	        for (WebElement pack : packages) {

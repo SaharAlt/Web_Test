@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-11T00:49:47 AST" name="Default suite" finished-at="2024-07-11T00:50:06 AST" duration-ms="19149">
+  <suite started-at="2024-07-11T01:09:31 AST" name="Default suite" finished-at="2024-07-11T01:09:54 AST" duration-ms="23304">
     <groups>
     </groups>
-    <test started-at="2024-07-11T00:49:47 AST" name="Default test" finished-at="2024-07-11T00:50:06 AST" duration-ms="19149">
+    <test started-at="2024-07-11T01:09:31 AST" name="Default test" finished-at="2024-07-11T01:09:54 AST" duration-ms="23304">
       <class name="webTest.SubscriptionPage">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:webTest.SubscriptionPage@268f106e]" started-at="2024-07-11T00:49:47 AST" name="setUp" finished-at="2024-07-11T00:50:04 AST" duration-ms="16840" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:webTest.SubscriptionPage@268f106e]" started-at="2024-07-11T01:09:31 AST" name="setUp" finished-at="2024-07-11T01:09:52 AST" duration-ms="20799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateSubscriptionPackages(java.lang.String,java.lang.String)[pri:0, instance:webTest.SubscriptionPage@268f106e]" started-at="2024-07-11T00:50:04 AST" name="validateSubscriptionPackages" data-provider="countries" finished-at="2024-07-11T00:50:04 AST" duration-ms="50" status="PASS">
+        <test-method signature="validateSubscription(java.lang.String,java.lang.String)[pri:0, instance:webTest.SubscriptionPage@268f106e]" started-at="2024-07-11T01:09:52 AST" name="validateSubscription" data-provider="countries" finished-at="2024-07-11T01:09:52 AST" duration-ms="76" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,8 +26,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSubscriptionPackages -->
-        <test-method signature="validateSubscriptionPackages(java.lang.String,java.lang.String)[pri:0, instance:webTest.SubscriptionPage@268f106e]" started-at="2024-07-11T00:50:04 AST" name="validateSubscriptionPackages" data-provider="countries" finished-at="2024-07-11T00:50:04 AST" duration-ms="16" status="PASS">
+        </test-method> <!-- validateSubscription -->
+        <test-method signature="validateSubscription(java.lang.String,java.lang.String)[pri:0, instance:webTest.SubscriptionPage@268f106e]" started-at="2024-07-11T01:09:52 AST" name="validateSubscription" data-provider="countries" finished-at="2024-07-11T01:09:52 AST" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,8 +42,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSubscriptionPackages -->
-        <test-method signature="validateSubscriptionPackages(java.lang.String,java.lang.String)[pri:0, instance:webTest.SubscriptionPage@268f106e]" started-at="2024-07-11T00:50:04 AST" name="validateSubscriptionPackages" data-provider="countries" finished-at="2024-07-11T00:50:04 AST" duration-ms="12" status="PASS">
+        </test-method> <!-- validateSubscription -->
+        <test-method signature="validateSubscription(java.lang.String,java.lang.String)[pri:0, instance:webTest.SubscriptionPage@268f106e]" started-at="2024-07-11T01:09:52 AST" name="validateSubscription" data-provider="countries" finished-at="2024-07-11T01:09:52 AST" duration-ms="20" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,8 +58,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSubscriptionPackages -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:webTest.SubscriptionPage@268f106e]" started-at="2024-07-11T00:50:04 AST" name="tearDown" finished-at="2024-07-11T00:50:06 AST" duration-ms="2146" status="PASS">
+        </test-method> <!-- validateSubscription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webTest.SubscriptionPage@268f106e]" started-at="2024-07-11T01:09:52 AST" name="tearDown" finished-at="2024-07-11T01:09:54 AST" duration-ms="2296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
