@@ -21,11 +21,12 @@ public class SubscriptionPage {
 
 	    @BeforeClass
 	    public void setUp() {
-	        // Set the path to the geckodriver executable
+	    	
 	    	System.setProperty("webdriver.gecko.driver", "C:\\browserdrivers\\geckodriver.exe");
 	        driver = new FirefoxDriver();
 	        driver.manage().window().maximize();
 	        driver.get("https://subscribe.stctv.com/sa-en");
+	        
 	    }
 
 	    @DataProvider(name = "countries")
@@ -39,8 +40,6 @@ public class SubscriptionPage {
 
 	    @Test(dataProvider = "countries")
 	    public void validateSubscriptionPackages(String country, String currency) {
-	        // Logic to switch to the specific country's subscription page
-	        // For example, you might need to select a country from a dropdown
 
 	        List<WebElement> packages = driver.findElements(By.cssSelector(".package-container"));
 	        for (WebElement pack : packages) {
@@ -48,7 +47,6 @@ public class SubscriptionPage {
 	            String price = pack.findElement(By.cssSelector(".package-price")).getText();
 	            String displayedCurrency = price.replaceAll("[0-9]", "").trim();
 
-	            // Add specific validations for each package type if necessary
 	            Assert.assertTrue(!type.isEmpty(), "The package type is empty");
 	            Assert.assertEquals(displayedCurrency, currency, "The currency mismatch for country: " + country);
 	        }
